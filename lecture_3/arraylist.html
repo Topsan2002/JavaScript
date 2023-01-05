@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Array.forEach()</title>
+</head>
+
+<body>
+    <h2>Javascript Array.forEach()</h2>
+    <p>Call a function once for each array element</p>
+    <p id="demo"></p>
+    <script>
+        var text = "";
+        var number = [45, 4, 9, 16, 25];
+        number.forEach(myFunction);
+        // number.forEach((value) => {
+        //     text = text + value + "<br>";
+
+        // });
+        document.getElementById("demo").innerHTML = text;
+
+        function myFunction(value) {
+            text = text + value + "<br>";
+        }
+    </script>
+
+</body>
+
+</html>

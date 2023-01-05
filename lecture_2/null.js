@@ -7,3 +7,4 @@ function getVowls(str) {
 }
 
 console.log(getVowls("seeeing"));
+console.log(getVowls("seeeing"));

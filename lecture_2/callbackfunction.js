@@ -8,3 +8,5 @@ function logQuote(quote) {
 }
 
 createQuote("you will getting better!", logQuote); //1
+
+createQuote(",mame", (name) => console.log(name))

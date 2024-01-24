@@ -2,6 +2,7 @@ function numberSplit(num) {
     (num % 2 == 0 ? arr = `[${num/2}, ${num/2}]` :
         arr = `[${Math.floor(num/2)}, ${Math.round(num/2)}]`);
     console.log(arr);
+
 }
 
 numberSplit(4);

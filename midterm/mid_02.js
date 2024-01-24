@@ -1,7 +1,7 @@
 //out put : 
 // highestDigit(379) = 9
 // highestDigit(2) = 2
-// highestDigit(377401)
+// highestDigit(377401) = 7
 
 highestDigit(379);
 highestDigit(2);
@@ -10,13 +10,15 @@ highestDigit(377401);
 function highestDigit(num) {
     let max = 0;
     for (let val of String(num)) {
+        // console.log(val);
         if (max < val) max = val;
     }
     // console.log(max);
     let value = String(num).split('').sort();
     //max = value[va]
     value.sort();
-    console.log(value);
+    // console.log(value[0]);
+    // console.log(value); 
     return max;
 }
 
